@@ -1,11 +1,11 @@
 # ImageCaptionGenrator
-In this Project we are going to create a deep learning models using pretrained models, CNN, RNN etc. with the help of this model we can generate the caption for any image.
-Caption generation is a challenging artificial intelligence problem where a textual description must be generated for a given photograph. My project is inspired from Andrej Karpathy famous blogpost The Unreasonable effectiveness of Recurrent Neural Networks.
+In this Project we are going to create a deep learning models using pretrained models, CNN, RNN etc. with the help of this model we can generate the caption for any image.Caption generation is a challenging artificial intelligence problem where a textual description must be generated for a given photograph.
 
 Dataset
 
-I have used Flickr8k dataset for this project. It contains around 8091 images and 5 captions for each image (5 * 8091 = 40455 captions)
+We have used Flickr8k dataset for this project. It contains around 8091 images and 5 captions for each image (5 * 8091 = 40455 captions)
 Dataset Source: KAGGLE LINK https://www.kaggle.com/shadabhussain/flickr8k
+To access complete code with vgg16 weights and others weights refer:https://huggingface.co/kshitij10000/image-caption-genrator-using-flicker-and-tkinter/tree/main
 
 Model Evaluation Matrix
 
