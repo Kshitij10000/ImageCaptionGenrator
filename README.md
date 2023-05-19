@@ -45,3 +45,7 @@ Then we train the model with our dataset.
 Graphical User Interface
 
 We have used tkinter library and PIL (Python Image Library) to make a GUI with Upload button to upload the images and Classify Image button to get generated caption.
+
+#Performance analysis
+
+The performance of the image caption generator using LSTM, VGG16, Flicker8k dataset, and Tkinter was thoroughly analyzed. The model architecture effectively combined VGG16 for image feature extraction with LSTM for caption generation. The model was tested on the dataset, and both qualitative and quantitative analyses were conducted. The generated captions were visually inspected, and their coherence and accuracy were evaluated. Additionally, the evaluation metrics were calculated to provide a quantitative measure of performance. Based on the analysis, potential areas for further improvement were identified to enhance the overall performance of the model.
