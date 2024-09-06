@@ -35,7 +35,7 @@ Tokenizer We'll now convert our captions into tokens eg (startseq = 1, endseq = 
 
 Splitting the dataset We'll split the dataset (all 3 datasets i.e. captions_data, images_data and filenames_data) in ratio of 0.6 : 0.2 : 0.2 (train:valid:test) For the captions_data we have to do the padding since not all token_arrays are of same length, so we take the maximum length and do padding for other token_arrays.
 
-Model
+# Model
 
 The input to the model will be image-features of shape 4096.
 First we got 256 unit outputs from images using Dense layer and we used the Embedding and LSTM layer to get 256 unit output from captions.
@@ -44,7 +44,7 @@ Then we train the model with our dataset.
 
 # Graphical User Interface
 
-We have used tkinter library and PIL (Python Image Library) to make a GUI with Upload button to upload the images and Classify Image button to get generated caption.
+We have used tkinter library and PIL (Python Image Library) to make a GUI with Upload button to upload the images and Classify Image button to get generated caption. 
 
 # Performance analysis
 
